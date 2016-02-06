@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wp_jackhillman.com.au');
+define('DB_NAME', 'wp_');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -63,7 +63,7 @@ define('NONCE_SALT',       'O+dtuvrVx[w?#6_>,wl0!^+H#w0Lz;&)S#~|EW4)C<*[cn]S;Z#<
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'hillmanscarshop_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -77,7 +77,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
